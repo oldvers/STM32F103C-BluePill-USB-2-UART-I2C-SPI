@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\..\..\submodule\cusblib\project\iar\cusblib.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\submodule\cusblib\submodule\STM32F103C-Hardware\project\iar\STM32F103C-Hardware.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\submodule\cusblib\submodule\STM32F103C-Hardware\submodule\cuties\project\iar\cuties.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\USB-2-UART-I2C-SPI.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>all</name>
+            <member>
+                <project>cuties</project>
+                <configuration>release</configuration>
+            </member>
+            <member>
+                <project>STM32F103C-Hardware</project>
+                <configuration>release</configuration>
+            </member>
+            <member>
+                <project>cusblib</project>
+                <configuration>release</configuration>
+            </member>
+            <member>
+                <project>USB-2-UART-I2C-SPI</project>
+                <configuration>release</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>
