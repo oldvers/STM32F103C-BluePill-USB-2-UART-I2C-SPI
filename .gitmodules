@@ -1,0 +1,3 @@
+[submodule "submodule/cusblib"]
+	path = submodule/cusblib
+	url = https://github.com/oldvers/cusblib.git
